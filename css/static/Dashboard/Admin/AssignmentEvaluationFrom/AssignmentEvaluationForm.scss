@@ -1,0 +1,42 @@
+.assignment-evaluation-form {
+  word-break: break-word;
+  .btn-primary {
+    background: #6808ff !important;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .btn-copy-detection {
+    background-color: #d6d6d6 !important;
+    color: #fff;
+    font-weight: 500;
+  }
+  .btn-warning {
+    /* Warning */
+
+    background: #ffd019 !important;
+    border-radius: 8px;
+  }
+  label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.001em;
+
+    color: #000000;
+
+    .label {
+      color: #858585;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .box-shadow {
+    box-shadow: 0px 0px 13px rgba(9, 30, 66, 0.1);
+    border-radius: 14px;
+  }
+}

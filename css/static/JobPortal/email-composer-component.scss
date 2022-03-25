@@ -1,0 +1,105 @@
+.email-composer-component {
+
+ .email-box {
+		width: 100%;
+		min-height: 361px;
+		background: #F9F9F9;
+		border: 1px solid #DEDEDE;
+		box-sizing: border-box;
+		border-radius: 4px;
+ }
+	.email-to {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		/* identical to box height */
+		color: #6C6C6C;
+	}
+
+	.email-section {
+		min-height:40px;
+		border-bottom: 1px solid #C7C7C7;
+		background: #F9F9F9;
+	}
+
+	.email-cc-bcc {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		/* identical to box height */
+		color: #5E24F9;
+	}
+
+	.email-from {		
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		color: #3C3C3C;
+	}
+
+	.email-text {
+		height: 200px;
+		background: #F9F9F9;
+		border: unset;
+		outline: unset;
+		padding: 18px !important;
+	}
+
+	.email-send-button {
+		width: 75px;
+		height: 28px;
+		left: 1252px;
+		top: 429px;
+		border: unset;
+		outline: unset;
+		background: #5E24F9;
+		border-radius: 4px;
+	}
+
+	.email-icon {
+		width: 29px;
+    	height: 18px;
+    	margin-top: 3px;
+	}
+
+	.trash-icon {
+		width: 26px;
+    	height: 19px
+	}
+
+	.attach-icon {
+		width: 20px;
+    	height: 20px;
+	}
+
+	.a-text-icon {
+		width: 24px;
+    	height: 18px;
+	}
+
+	.cursor-poitner {
+		cursor: pointer;
+	}
+
+	.email-subject {
+		border: unset;
+		outline: unset;
+		background: #F9F9F9;
+	}
+
+	.rti--container {
+		border: unset;
+		outline: unset;
+	}
+
+	.go309598777:focus-within {
+	    border-color: unset;
+	    box-shadow: unset;
+	}
+}

@@ -1,0 +1,19 @@
+.live-session-component {
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    display: inline-block;
+    background: #BFA6F7;
+    cursor: pointer;
+    margin-left: 10px;
+
+    .live-session-red-circle {
+        width: 10px;
+        height: 10px;
+        border-radius:50%;
+        display: inline-block;
+        background: #FF0000;
+        opacity: 0.6;
+    }
+}
+

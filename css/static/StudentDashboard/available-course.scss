@@ -1,0 +1,43 @@
+.available-course{
+    .card{
+        height: 100%;
+        .card-body{
+            min-height: 266px;
+        }
+        position: relative;
+        .card-body .col-md-7{
+            padding-bottom: 35px;
+        }
+        .card-title{
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 12px !important;
+            color: #1E1E1E;
+        }
+        .review-btn{
+            background: #f9b115 !important;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 15px !important;
+            padding: 7px 10px !important;
+        }
+        
+    }
+    @media (max-width:425px) {
+        .card-title{
+            margin-top: 10px;
+        }
+        
+        p.author{
+            font-size: 12px !important;
+        }
+    }
+    @media (min-width:425px) and (max-width:1000px){
+        .card-title{
+            margin-top: 10px;
+        }
+        div , button{
+            margin-top: 0 !important;
+        }
+    }
+}

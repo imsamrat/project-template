@@ -1,0 +1,63 @@
+.interview-schedule-form-component {
+    .profile-image {
+        width: 48px;
+        height: 48px;
+    }
+
+    .interview-section-div {
+        border: 1px solid #CECECE;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 15px 0;
+    }
+    .interview-add-button {
+        background: #FFFFFF;
+        border: 1px solid #5E24F9;
+        box-sizing: border-box;
+        border-radius: 4px;
+        color: #5E24F9;
+        outline: unset;
+        width: 156px;
+        height: 36px;
+    }
+    .interview-save {
+        width: 119px;
+        height: 42px;
+        background: #5E24F9;
+        border-radius: 4px;
+        color: #FFFFFF;
+        outline: unset;
+        border: unset;
+    }
+    .interview-cancel {
+        width: 119px;
+        height: 42px;
+        border: 1px solid #777777;
+        box-sizing: border-box;
+        border-radius: 4px;
+        outline: unset;
+        border: unset;
+    }
+    .MuiInput-underline {
+        background: #E9E9E9;
+        border-radius: 4px;
+    }
+    .MuiInput-input {
+        text-align: center;
+    }
+    .interview-select {
+        height: 36px;
+        border: 1px solid #A2A2A2;
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding: 7px;
+    }
+    .interview-round-date {
+        background: #E9E9E9;
+        border-radius: 4px;
+        height: 33px;
+    }
+    .interview-round-add-button-plus-icon {
+        font-size: 22px;
+    }
+}

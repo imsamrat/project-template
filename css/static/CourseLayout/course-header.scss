@@ -1,0 +1,22 @@
+.course-header-component {
+    a:hover {
+        text-decoration: none;
+    }
+
+    .progress {
+        width: 100%;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    .progress-bar {
+        background-color: $green;
+    }
+
+    .progress-div {
+        width: 100% !important;
+    }
+
+}

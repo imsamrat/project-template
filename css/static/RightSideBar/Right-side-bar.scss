@@ -1,0 +1,37 @@
+.image-area{
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+  }
+  .upload-control{
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 23%;
+    left: 5%;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .image-area:hover .upload-control{
+    display: block;
+  }
+  
+  .image-update::before{
+    content: "";
+    width: 95px;
+    height: 95px;
+    display: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
+    top: 8px;
+  }
+  
+  .image-area:hover .image-update::before{
+    display: block;
+  }

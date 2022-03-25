@@ -1,0 +1,34 @@
+.course-objective-component {
+    .objective-image {
+        height: 70px;
+        width: 70px;
+        margin-bottom: 15px;
+        
+    }
+    
+    .course-objective-heading-div {
+        padding: 13px;
+        border-radius: 16px;
+        background-color: white;
+        width: 435px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 17px;
+    }
+
+    .course-objective-title {
+        color: white;
+        padding: 13px;
+        border-radius: 16px;
+        background: linear-gradient(-45deg,#ff589b,#ff136f);
+        width: 176px;
+    }
+
+    
+}

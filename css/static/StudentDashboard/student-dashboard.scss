@@ -1,0 +1,60 @@
+@import './available-course.scss';
+@import './enrolled-course.scss';
+@import './student-profile-navigation';
+@import './add-new-profile-details';
+
+.assignment-analytics-box{
+    background: #FFFFFF;
+   box-shadow: 0px 5.64912px 14.1228px rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
+   h3{
+    font-weight: 600 !important;
+    color: #282828;
+    line-height: 26px !important;
+   }
+   .star{
+        border-radius: 50%;
+        height: 34px;
+        width: 34px;
+        text-align: center;
+        padding-top: 4px;
+        font-size: 18px;
+        margin-right: 10px;
+   }
+   .star.gold{
+    color: #FFB800;
+    background: #FFF5CB;
+   }
+   .star.silver{
+    color: #b4b4b4;
+    background: #e6e4e3;
+   }
+   .star.bronze{
+    color: #663f05;
+    background: #f8eadc;
+   }
+}
+.student-dashboard{
+    min-height: calc(100vh - 218px) !important;
+    h3{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+        color: #000000;
+
+    }
+
+    h5{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1E1E1E;
+    }
+    @media(max-width:768px) {
+        h3{
+            font-size: 18px;
+            line-height: 23px;
+        }
+    }
+}

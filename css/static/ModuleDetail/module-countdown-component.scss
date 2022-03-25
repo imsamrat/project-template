@@ -1,0 +1,14 @@
+.module-countdown-component {
+    border-radius: 16px;
+    box-shadow: 2px 2px 9px 9px #eff3f9;
+    .each-digit {
+        height: 65px;
+        width: 52px;
+        background: linear-gradient(90deg, #6542f6, #5c0be1);
+        color: white;
+        font-size: 25px;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 16px;
+    }
+}

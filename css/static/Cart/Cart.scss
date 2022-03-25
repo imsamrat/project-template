@@ -1,0 +1,109 @@
+.cart {
+    .cart-title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        color: $light-black;
+        margin-top: 8px;
+    }
+    
+    color: #353536;
+    .cart-items-wrapper {
+        .dashed-border {
+            border-top: 1px dashed rgba(0, 0, 0, 0.35);
+        }
+        min-width: 310px;
+        .cart.wrapper {
+            min-width: 300px;
+        }
+        @media (max-width: 375px) {
+            min-width: 100%;
+            width: 100%;
+            .cart.wrapper {
+                min-width: 100%;
+                width: 100%;
+            }
+            .items {
+                min-width: 280px;
+            }
+            .items::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            .items::-webkit-scrollbar-track {
+                box-shadow: none;
+            }
+
+            .items::-webkit-scrollbar-thumb {
+                background-color: #ededed;
+                outline: 0;
+                border-radius: 5px;
+            }
+        }
+        .checkout-item-text{
+            margin-top: 5px;
+        
+        }
+        .subtitle-2{
+            margin-top: 20px;
+        }
+        .item-name {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            color: $mid-black;
+        }
+        .item-authorName {
+            color: $light-black;
+        }
+        .item-price {
+            color: $primary;
+        }
+        .course-thumb {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500 !important;
+            font-size: 12px;
+            color: #1e1e1e !important;
+            white-space: initial !important;
+            margin-top: 8px !important;
+            border-radius: 5px;
+            display: inline-block;
+            height: 100px;
+        }
+
+        .close-icon {
+            cursor: pointer;
+            color: #aeaeae;
+            font-weight: 200;
+            font-size: 0.93em;
+        }
+    }
+
+    .payment-process {
+        h6 {
+            font-family: Hind Siliguri;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 32px;
+        }
+        .preview {
+            position: relative;
+            img {
+                border-radius: 8px;
+                max-height: 250px;
+            }
+        }
+        .play-icon {
+            cursor: pointer;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: calc(50% - 50px) !important;
+            left: calc(50% - 50px) !important;
+        }
+    }
+}

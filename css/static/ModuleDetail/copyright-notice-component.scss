@@ -1,0 +1,24 @@
+.copyright-notice-component {
+    .MuiDialog{
+        max-width: 80% !important;
+    }
+}
+.MuiDialogContent-root {
+    padding: 0px !important;
+}
+
+.copyright-image {
+    height: 464px !important;
+    width: 500px;
+}
+
+.warning-icon {
+    height: 22px !important;
+}
+
+.copyright-warning-link {
+    text-decoration: underline !important;
+    color: red !important;
+    font-size: 16px !important;
+    cursor: pointer;
+}

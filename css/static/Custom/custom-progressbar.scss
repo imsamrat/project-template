@@ -1,0 +1,37 @@
+.custom-progressbar-component {
+    .progress-bar {
+        background-color: $mid-light-blue;
+        border-radius: 30px;
+    }
+    .main-progress-enrolled-course {
+        width: 100%;
+    }
+    .main-progress {
+        width: 80%;
+    }
+    .progress {
+        height: 8px;
+        border-radius: 30px;
+    }
+    .custom-progressbar-enrolled-course {
+        position: absolute;
+        right: 25px;
+        bottom: 111px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #434343;
+    }
+}
+
+.progress-div .progress {
+    height: 10px !important;
+}

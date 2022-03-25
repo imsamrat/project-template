@@ -1,0 +1,108 @@
+.course-information-component {
+    .section-title {
+        background-image: url("./../../assets/icons/homepage/title-arrow.svg");
+        background-repeat: no-repeat;
+        background-position: center right;
+        max-width: fit-content;
+        margin: 0px auto;
+        padding: 20px;
+    }
+    .card-container {
+        display: grid;
+        justify-items: center;
+        gap: 20px;
+        grid-template-areas:
+            ". a ."
+            "b a c"
+            "b g c"
+            "d g e"
+            "d f e"
+            ". f .";
+        grid-template-columns: repeat(3, 1fr);
+
+        .info-card {
+            max-width: 500px;
+            width: 100%;
+            font-family: "Hind Siliguri", sans-serif;
+            h3 {
+                font-size: 21px;
+                margin: 20px 0 15px 0;
+                font-weight: 700;
+                color: #343c97;
+            }
+            p {
+                font-size: 15px;
+                color: #696984;
+                font-weight: 500;
+                text-align: justify;
+            }
+            &.card-1 {
+                grid-area: a;
+            }
+            &.card-2 {
+                grid-area: b;
+            }
+            &.card-3 {
+                grid-area: c;
+            }
+            &.card-4 {
+                grid-area: d;
+            }
+            &.card-5 {
+                grid-area: e;
+            }
+            &.card-6 {
+                grid-area: f;
+            }
+            &.card-7 {
+                grid-area: g;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        @media (min-width: 993px) {
+            .info-card {
+                &.card-7 {
+                    img {
+                        max-width: 80%;
+                    }
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    @media (max-width: 992px) {
+        .card-container {
+            grid-template-areas:
+                "a a"
+                "b c"
+                "g g"
+                "d e"
+                "f f";
+            grid-template-columns: repeat(2, 1fr);
+            .info-card {
+                margin: 20px;
+                &.card-1 {
+                    margin-bottom: 0px;
+                }
+                &.card-4 {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .card-container {
+            grid-template-areas:
+                "g"
+                "a"
+                "b"
+                "c"
+                "d"
+                "e"
+                "f";
+            grid-template-columns: 1fr;
+        }
+    }
+}

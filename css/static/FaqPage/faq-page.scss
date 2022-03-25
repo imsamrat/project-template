@@ -1,0 +1,24 @@
+.faq-page{
+    .frequently-asked-main {
+        padding-top: 80px;
+        .video{
+                position: relative;
+                img{
+                    border-radius: 8px;
+                }
+            .play-icon {
+                cursor: pointer;
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: calc(50% - 30px) !important;
+                left: calc(50% - 30px) !important;
+            }
+        }
+    }
+    .video{
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        padding: 15px;
+    }
+}

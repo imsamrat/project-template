@@ -1,0 +1,113 @@
+    .jpi-review-style{
+            margin: 0;
+            background: #FFFFFF;
+            .jpi-review-frame2{
+                background: #F4F7FC;
+                .stage-technical-round{
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                        .profile-icon{
+                                width: 45px;
+                                height: 45px;
+                            }
+                        .jp-executive-name{
+                                font-family: Poppins;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 36px;
+                                /* identical to box height */
+                                color: #2D2D2D;
+        
+                        }
+                        .executive-info{
+
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #6C6C6C;
+
+                        }
+                        .stage-text{
+                            font-family: Poppins;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: #6C6C6C;
+                        }
+                        .date-time-zone{
+                          
+                            width: 287px;
+                            height: 24px;
+                                
+                                .calendarIcon{
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                .date{
+                                    
+                                    width: 84px;
+                                    height: 24px;
+                                    font-family: Poppins;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #3D3D3D;
+
+                                }
+                            
+                            .clock{
+                                width: 20px;
+                                height: 20px;
+                            }
+                            .clock-time{
+                                font-family: Poppins;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 24px;
+                                /* identical to box height */
+                                color: #3D3D3D;
+                            }
+                    }
+                }
+                .cvPreview-cotainer{
+                
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                    iframe{
+                        height: 530px;
+                    }
+                }
+                
+                }
+                .score{
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                }
+                .plus-circle{
+                    Width: 24px;
+                    Height: 24px;
+                    color: #FF136F;
+                }
+                .mark-input{
+                    width: 50px;
+                    height: 26px
+                }
+                .btn-save{
+                    border-color: #5E24F9;
+                    color: #5E24F9;
+                    font-weight: 500;
+                    font-size: 12px;
+                }
+                .btn-submit{
+                    background-color: #5E24F9;
+                    color: #FFF;
+                    font-weight: 500;
+                    font-size: 12px;
+                }
+    }

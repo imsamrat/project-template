@@ -1,0 +1,67 @@
+.conceptual-session-page {
+    .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+      box-shadow: none;
+      border-radius: 10px !important;
+    }
+  
+    .locked-modules,
+    .unlocked-modules {
+      background: #ffffff;
+      border-radius: 10px;
+  
+      .MuiAccordionSummary-root {
+        background: #3ac55a;
+        color: white;
+        border-radius: 10px;
+      }
+      .Mui-expanded {
+        border-radius: 10px 10px 0px 0px;
+      }
+  
+      .MuiIconButton-edgeEnd {
+        background: transparent;
+      }
+    }
+    .locked-modules {
+      .MuiAccordionSummary-root {
+        background: #2d2d2d;
+      }
+    }
+    .module-group {
+      .MuiCollapse-wrapperInner {
+        padding-top: 10px;
+        overflow: hidden !important;
+        background: white;
+      }
+      .accordion-custom-details {
+        overflow-y: auto !important;
+        height: unset !important;
+        max-height: 410px;
+      }
+      .module-component {
+        .accordion-custom-details {
+          overflow-y: unset !important;
+          height: unset !important;
+          max-height: unset !important;
+          all: unset !important;
+        }
+        .MuiAccordionSummary-root {
+          background: #f3f5f9;
+          color: #1e1e1e;
+          border-radius: 10px;
+        }
+      }
+    }
+    .post-component .card-body{
+      min-height: 420px;
+    }
+    .sub-milestone-title{
+        margin-bottom: 0;
+        margin-top: 7px;
+        font-size: 14px;
+    }
+  
+  
+  }
+  
+  

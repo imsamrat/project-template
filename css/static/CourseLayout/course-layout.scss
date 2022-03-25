@@ -1,0 +1,72 @@
+.course-layout {
+    min-height: calc(100vh - 122px) !important;
+    background-color: $white;
+   .milestone-section{
+    background: #FFFFFF;
+    
+   }
+    .course-name{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        color: $black;
+    }
+    .course-content-progress{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: $black;
+    }
+    .btn:focus {
+        box-shadow: unset;
+    } 
+    .previous-button {
+        border: 1px solid #6C6C6C;
+        box-sizing: border-box;
+        border-radius: 43px;
+        width: 128px;
+        height: 42px
+    }
+    .next-button {
+        background: linear-gradient(335.64deg, #FF589B -19.22%, #FF136F 118.87%);
+        border-radius: 43px;
+        width: 128px;
+        height: 42px;
+        color: $white;
+        margin-left: 5px;
+    }
+    .card{
+        border: 0 !important;
+        .shadow{
+            box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+        }
+        border-radius: 10px;
+    }
+
+    @media (max-width:768px) {
+        .course-name{
+            font-size: .9em;
+        } 
+        .course-content-progress{
+            font-size: 14px;
+        }
+        .previous-button,
+        .next-button{
+            min-width: 40%;
+            max-width: 100px;
+
+        }
+    }
+    @media (min-width:768px) and (max-width:1440px) {
+        .course-content-progress{
+            font-size: 17px;
+        }
+        .course-name{
+            font-size: 17px;
+        } 
+    }
+
+}

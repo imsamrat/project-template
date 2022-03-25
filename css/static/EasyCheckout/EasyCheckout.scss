@@ -1,0 +1,243 @@
+#easy-checkout-modal.ReactModal__Content {
+    max-width: 600px;
+    width: 100% !important;
+    overflow: auto;
+    padding: 0;
+    padding: 25px 40px 0 40px !important;
+    border-radius: 10px !important;
+
+    @media (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 20px !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+.modal-close-icon {
+    cursor: pointer;
+}
+#easy-checkout-modal.ReactModal__Content {
+    .enroll-modal-close-icon {
+        height: 42px;
+        width: 42px;
+        padding: 12px;
+        position: absolute;
+        right: -19px;
+        border-radius: 31px;
+        background-color: #ff3838;
+        color: white;
+        top: -15px;
+        @media (max-width: 777px) and (min-width: 320px) {
+            right: -7px;
+            transform: scale(0.7);
+            top: -20px;
+        }
+    }
+
+    .nav-item {
+        margin-bottom: 0px !important;
+    }
+
+    .enroll-now-nav-button {
+        border: unset !important;
+        width: 100%;
+        height: 50px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #e8e8e8;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+
+        outline: unset !important;
+        @media (max-width: 777px) {
+            height: 40px;
+        }
+    }
+
+    .enroll-now-nav-active-button {
+        background: #31c4f3;
+        border-radius: 5px;
+        color: white;
+        outline: unset !important;
+    }
+
+    .nav-link:hover {
+        border: unset !important;
+        border-color: unset !important;
+    }
+
+    .nav-tabs {
+        border: unset;
+    }
+
+    .enroll-modal {
+        max-height: 80vh;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        /* Track */
+        // &::-webkit-scrollbar-track {
+        //     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        //     -webkit-border-radius: 10px;
+        //     border-radius: 10px;
+        // }
+
+        /* Handle */
+        // &::-webkit-scrollbar-thumb {
+        //     -webkit-border-radius: 10px;
+        //     border-radius: 10px;
+        //     background: rgba(255, 0, 0, 0.8);
+        //     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        // }
+        // &::-webkit-scrollbar-thumb:window-inactive {
+        //     background: rgba(255, 0, 0, 0.4);
+        // }
+
+        .auth-form {
+            padding: 10px !important;
+            border-radius: 25px;
+            @media (max-width: 425px) {
+                border-radius: 17px;
+            }
+            h2 {
+                color: $dark-blue;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            p {
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                color: $black;
+            }
+        }
+
+        .form-check-label {
+            font-weight: 500;
+            font-size: 17px;
+            color: #969696;
+        }
+        .form-check-input {
+            zoom: 1.5;
+            margin: 0 !important;
+            position: absolute;
+            left: 0;
+        }
+
+        .text-underline {
+            text-decoration: underline;
+        }
+
+        .auth-btn {
+            background: linear-gradient(-45deg, #ff589b, #ff136f);
+            color: #fff;
+            border: none;
+            font-weight: bold;
+            border-radius: 25px;
+            line-height: 37px;
+        }
+
+        .auth-btn:active {
+            background: linear-gradient(-45deg, #ff589b, #ff136f) !important;
+            box-shadow: none;
+        }
+
+        input:focus {
+            box-shadow: unset;
+        }
+        .login-btn {
+            background: linear-gradient(86.89deg, #343c97 -111.91%, #31c4f3 79.41%);
+            border-radius: 5px;
+            width: 100%;
+            padding: 15px 0px;
+            color: $white;
+            font-size: 20px;
+            &:hover {
+                background: linear-gradient(86.89deg, #31c4f3 50%, #343c97 170%) !important;
+            }
+        }
+        .login-to-sign-up-btn {
+            color: $mid-light-blue;
+            cursor: pointer;
+        }
+        .auth-btn .arrow-right {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+
+        .form-group label {
+            color: #2f2f41;
+            font-weight: 500;
+        }
+        .form-control {
+            border: 1px solid #c2c2c2;
+            box-sizing: border-box;
+            border-radius: 5px;
+            padding: 28px 22px;
+        }
+        .optional-fields {
+            height: 60px;
+            padding-left: 15px !important;
+            appearance: none;
+        }
+        .selection {
+            position: relative;
+            .option-icon {
+                position: absolute;
+                right: 15px;
+                top: 40%;
+            }
+        }
+
+        .password-box {
+            position: relative;
+            .show-pass {
+                padding-top: 15px;
+                position: absolute;
+                right: 5px;
+                top: 0;
+                font-size: 1.3em;
+                color: #a7a7a7;
+            }
+            .btn:focus {
+                box-shadow: none !important;
+            }
+        }
+
+        @media only screen and (max-width: 375px) {
+            .form-check-label,
+            .terms-text {
+                font-size: 13px;
+                margin-top: 4px;
+            }
+            .form-check-input {
+                zoom: 1;
+                margin: 0 !important;
+                position: absolute;
+                left: 0;
+                top: 7px;
+            }
+            .resposive-text {
+                font-size: 14px !important;
+            }
+
+            .responsive-title-text {
+                font-size: 13px !important;
+            }
+            .remmber-text {
+                font-size: 13px !important;
+            }
+        }
+
+
+    }
+}

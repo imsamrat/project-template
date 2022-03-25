@@ -1,0 +1,61 @@
+.module-video-component {
+    iframe, #horizon{
+        width: 720px !important;
+        height: 460px !important;
+
+        @media (max-width:700px) {
+            width: 100% !important;
+            height: 240px !important;
+        }
+        @media (max-width:375px) {
+            height: 200px !important;
+        }
+    }
+    #secondray-player{
+        width: 100% !important;
+        margin-bottom: -6px !important;
+    }
+    position: relative;
+    .play{
+        position: absolute;
+        top:45%;
+        left: 45%;
+        display: none ;
+        
+    }
+    video:focus{
+        border: 0;
+        box-shadow: 0;
+        outline: 0;
+    }
+    div{
+        width: 100% !important;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 990px) {
+        div {
+            margin-top: -67px;
+        }
+
+    }
+
+
+    @media screen and (min-width: 991px) {
+        div {
+            margin-top: -27px;
+        }
+    }
+
+    @media screen and (min-width: 1198px) {
+        div {
+            margin-top: 20px;
+        }
+    }
+      
+}
+
+.module-video-component > div{
+    width: 100% !important;
+    height: auto !important;
+    
+}

@@ -1,0 +1,175 @@
+.job-dashboard{
+    font-family: 'Poppins', sans-serif;
+    .btn-lg, .btn-group-lg > .btn {
+        padding: 0.65rem 1rem;
+        font-size: 1em;
+        line-height: 1.5;
+        border-radius: 0.3rem;
+    }
+    .form-control-lg {
+        height: calc(1.5em + 1rem + 2px);
+        padding: 1.4rem 1rem;
+        font-size: 1em;
+        line-height: 1.5;
+        border-radius: .3rem;
+    }
+
+    table{
+        font-size: 13.5px;
+    }
+    .btn-primary{
+        background-color: #5B34F1 !important;
+        border-color: #5B34F1 !important;
+
+    }
+    background-color: #F4F7FC;
+    min-height: 100vh !important;
+    .link-icons{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        font-size: 16px;
+        a{
+            border-radius: 50%;
+            display: inline-block;
+            height: 23px;
+            width: 23px;
+            text-align: center;
+        }
+        a:hover {
+            color: #fff;
+            background: #000;
+        }
+        .github{
+            font-size: 23px;
+            color: #231E1B;
+            line-height: 10px;
+        }
+        .link{
+            background: #684EFB;
+            color: white;
+        }
+        .linked-in{
+            background: #0077B7;
+            color: #fff;
+            font-size: 0.9em;
+        }
+    }
+        .MuiDrawer-paper{
+        color: #fff  !important;
+        background-color: #4917cd !important;
+       
+        a{
+            &:hover{
+                color: #fff;
+            }
+        }
+        a.active{
+            color: rgba(255, 255, 255, 0.6);
+            svg{
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+        
+        .MuiListItem-button {
+            transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            padding: 10px 50px;
+        }
+        .MuiListItemIcon-root {
+            color: rgb(241, 241, 241);
+            display: inline-flex;
+            min-width: 30px;
+            font-size: 1.3em;
+            flex-shrink: 0;
+        }
+        
+    }
+    .job-profile-drawer{
+        .MuiDrawer-paper {
+            background-color: #F4F7FC !important;
+            color: #231E1B !important;
+    
+            overflow: visible !important;
+            .drawer-controls{
+                position: absolute;
+                left: -37px;
+                button:focus{
+                    box-shadow: none;
+                    outline: 0;
+                }
+                svg{
+                    background: black;
+                    border-radius: 3px;
+                    color: #fff;
+                }
+            }
+       }  
+    } 
+    
+    .MuiPaper-elevation1 {
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+    }
+
+    .job-portal-table{
+        padding: 16px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        
+        thead{
+            background: #F5F3FF;
+            tr{
+                background: #F5F3FF;
+            }
+            line-height: 25px;
+            padding-top: 2px;
+        }
+        tbody:before {
+            content: "-";
+            display: block;
+            line-height: 1em;
+            color: transparent;
+        }
+        
+        td{
+            padding: 7px 10px;
+        }
+        th, td{
+            border: 0;
+            .MuiRating-root {
+                font-size: 1.2rem;
+            }
+            vertical-align: middle;
+        }
+        .table-hover tbody tr:hover {
+            color: #4f5d73;
+            background-color: rgba(23, 205, 87, 0.02);
+        }
+        table th:first-child{
+            border-radius: 5px 0 0 5px;
+          }
+          
+          table th:last-child{
+            border-radius:0 5px 5px 0;
+          }
+          
+
+        
+    }
+    .primary-screening{
+
+        td:nth-child(4),th:nth-child(4),td:nth-child(5), th:nth-child(5){
+           text-align: center;
+       }
+       td:nth-child(6), th:nth-child(6){
+           text-align: center;
+           width: 150px;
+       }
+    }
+    
+}
+
+.MuiBackdrop-root{
+    opacity: 0.2 !important;
+}
+

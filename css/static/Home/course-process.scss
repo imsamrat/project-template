@@ -1,0 +1,38 @@
+.course-process-component {
+    background: #fafafa;
+    border-radius: 5px;
+    .section-title {
+        background-image: url("./../../assets/icons/homepage/title-Stroke.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        max-width: fit-content;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .course-process-step {
+        font-family: "Hind Siliguri", sans-serif;
+        display: flex;
+        align-items: flex-start;
+        h3 {
+            font-size: 18px;
+            line-height: 29px;
+            font-weight: 400;
+        }
+        span {
+            color: #31c4f38c;
+            font-size: 59px;
+            font-weight: 700;
+            margin-right: 10px;
+            line-height: 0.8;
+            min-width: 40px;
+            text-align: right;
+        }
+    }
+    @media (max-width: 768px) {
+        .course-process-step {
+            h3 {
+                font-size: 16px;
+            }
+        }
+    }
+}

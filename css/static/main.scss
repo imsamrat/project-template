@@ -1,0 +1,548 @@
+/* import only the necessary Bootstrap files */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+// Custom SASS
+@import "variables";
+@import "common";
+@import "LoginRegisterLayout/login-register-layout";
+@import "HomeLayout/hero-area";
+@import "HomeLayout/header";
+@import "HomeLayout/notice";
+@import "HomeLayout/course-criteria";
+@import "HomeLayout/enroll-card";
+@import "Base/logo";
+@import "Base/contact-popup.scss";
+@import "AboutUs/AboutUs.scss";
+@import "LoginRegisterLayout/login-register-layout";
+@import "ModuleDetail/milestone-component";
+@import "ModuleDetail/course-content";
+@import "CourseLayout/course-layout";
+@import "ModuleDetail/course-summary";
+@import "ModuleDetail/module-video-component";
+@import "CourseLayout/course-header.scss";
+@import "ModuleDetail/module-component.scss";
+@import "Home/course-information-card";
+@import "Home/course-objective";
+@import "Home/instructors.scss";
+@import "HomeLayout/footer";
+@import "Home/course-learning";
+@import "Home/project-display";
+@import "Custom/custom-accordion";
+@import "HomeLayout/course-content";
+@import "Home/frequently-asked";
+@import "Home/frequently-asked-list";
+@import "./Home/course-process.scss";
+@import "CourseLayout/course-header";
+@import "CourseLayout/lesson-search.scss";
+@import "ModuleDetail/module-component";
+@import "Quiz/question-component";
+@import "Quiz/option-component";
+@import "Quiz/result-component";
+@import "ModuleDetail/module-countdown-component";
+@import "ModuleDetail/copyright-notice-component";
+@import "Custom/custom-progressbar";
+@import "Quiz/quiz-component";
+@import "HomeLayout/frequently-asked.scss";
+@import "Custom/custom-modal";
+@import "Course/Assignment/assignment-page";
+@import "Course/Assignment/assignment-submission-component";
+@import "StudentDashboard/enrolled-course.scss";
+@import "StudentDashboard/available-course.scss";
+@import "StudentDashboard/profile.scss";
+@import "StudentDashboard/student-dashboard.scss";
+@import "CourseDetails/course-details.scss";
+@import "RatingStar/rating-star.scss";
+@import "Custom/custom-countdown";
+@import "Quiz/quiz-result-component";
+@import "Checkout/Checkout";
+@import "ModuleDetail/module-locked-component";
+@import "OrderHistory/OrderHistory";
+@import "SkeletonPreloader/StudetDashboardSkeleton.scss";
+@import "SkeletonPreloader/CourseContentSkeleton.scss";
+@import "SkeletonPreloader/CourseOverviewSkeleton.scss";
+@import "SkeletonPreloader/SuccessStudentSkeleton.scss";
+@import "CourseSummary/CourseSummary.scss";
+@import "StaticPages/RefundPolicy.scss";
+@import "SuccessStudents/SuccessStudents.scss";
+@import "NextStep/NextStep.scss";
+@import "Bookmark/Bookmark.scss";
+@import "PayementInstructions/ManualBkashPayementInstructions";
+@import "EasyCheckout/EasyCheckout";
+@import "Course/Assignment/assignment-feedback-component";
+@import "Course/Assignment/assignment-start-component";
+@import "LeaderBoard/leader-board.scss";
+@import "Course/Post/post-component";
+@import "Course/Form/form-component";
+@import "JobPortal/jobDashboard";
+@import "JobPortal/profile-basic-component";
+@import "JobPortal/profile-tabs";
+@import "JobPortal/tag-form-component";
+@import "JobPortal/candidate-email-list-component";
+@import "JobPortal/email-composer-component";
+@import "JobPortal/profile-discussion-list-component";
+@import "JobPortal/profile-discussion-area-component";
+@import "JobPortal/interview-schedule-form-component";
+
+@import "JobPortal/jpi-review-component";
+@import "JobPortal/AddJob.scss";
+@import "JobPortal/AddJobDetails.scss";
+@import "JobPortal/JpiCandidates.scss";
+
+// Dashboard
+
+@import "Dashboard/dashboard-sidebar-component";
+@import "Dashboard/rich-texteditor.scss";
+@import "Custom/custom-table-component";
+@import "Custom/custom-alert.scss";
+@import "Dashboard/Admin/CourseManagement/course-content-comonent";
+@import "Dashboard/Admin/EmailAndSms/EmailAndSms.scss";
+@import "Dashboard/Admin/AssignmentEvaluationForm/AssignmentEvaluationForm.scss";
+@import "Form/Admin/CourseManagement/create-assignment-component";
+@import "Home/course-information";
+@import "FaqPage/faq-page.scss";
+@import "Cart/cart.scss";
+@import "TokenCheck/token-check";
+@import "Notifications/notification.scss";
+@import "studentAnalytics/student-analytics.scss";
+@import "ConceptualSession/conceptual-session.scss";
+@import "NotificationPopup/notification-popup.scss";
+@import "LiveSession/live-session";
+@import "LiveSession/student-submitted-issue-form";
+@import "RightSideBar/Right-side-bar";
+
+//phitron
+
+@import "StudentDashboard/enrolled-coursses.scss";
+@import "./ModuleDetail/moduleDetails.scss";
+@import "./ModuleDetail/unPublished.scss";
+@import "./Home/course-process.scss";
+@import "./Terms/terms.scss";
+@import "./Home/course-process.scss";
+
+.course-next-btn {
+  font-family: Montserrat;
+  background: #300063;
+  border-radius: 43px;
+  height: 42px;
+  width: 128px;
+  color: $white;
+  &:hover {
+    color: $white !important;
+  }
+}
+
+.course-prev-btn {
+  font-family: Montserrat;
+  border: 1px solid $dark-grey;
+  border-radius: 43px;
+  height: 42px;
+  width: 128px;
+  color: $dark-grey;
+  &:hover {
+    color: $white !important;
+  }
+}
+
+.stop-cursor{
+  cursor: not-allowed !important;
+}
+.pointer-cursor{
+  cursor: pointer!important;
+}
+
+//end phitron
+
+$border-radius-base: 40px;
+
+// tHEMING
+$theme-colors: (
+  "primary": $blue,
+  "danger": $pink,
+);
+
+// @import "Dashboard/admin_panel_overrides_semi_light";
+
+$border-radius-base: 40px;
+
+body {
+  color: #383838;
+  font-family: "Montserrat", "Hind Siliguri", sans-serif;
+  background-color: #fff;
+}
+p {
+  font-size: 16px;
+}
+
+.swal-text {
+  text-align: center;
+}
+
+.francy-btn {
+  padding: 15px 42px !important;
+  border-radius: 40px !important;
+  position: relative;
+  white-space: nowrap;
+  padding-right: 65px !important;
+}
+.francy-btn::after {
+  content: "\f061";
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 42px;
+  width: 42px;
+  background: #ffff;
+  color: #f94f4f;
+  border-radius: 50%;
+  display: block;
+  font-size: 1.4em;
+  padding-top: 6px;
+}
+
+.btn-danger {
+  background: linear-gradient(335.64deg, #ff589b -19.22%, #ff136f 118.87%);
+  color: #fff;
+  border: none;
+}
+.btn-danger:hover {
+  background: linear-gradient(45deg, $light-pink, $pink);
+}
+
+.rounded {
+  border-radius: 40px !important;
+}
+
+.bg-primary {
+  background: linear-gradient(45deg, $blue, $light-blue);
+}
+
+.bg-danger {
+  background: linear-gradient(45deg, $pink, $light-pink);
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 10px #3754aa1a;
+}
+
+.shadow {
+  // box-shadow: 0px 30px 80px 0px #3754aa1a !important;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1) !important;
+}
+.btn-rounded {
+  background: linear-gradient(335.64deg, #ff589b -19.22%, #ff136f 118.87%) !important;
+  border-radius: 52px !important;
+  padding: 8px 25px !important;
+  color: #fff !important;
+}
+
+.btn-rounded-outline {
+  border-radius: 52px !important;
+}
+.btn-rounded-green {
+  border-radius: 52px;
+  padding: 5px 20px;
+  width: auto !important;
+  border-color: #ff136f !important;
+  color: #ff136f !important;
+  background: transparent !important;
+}
+
+.btn-warning-rounded {
+  background-color: orange !important;
+  border-radius: 52px;
+  padding: 8px 25px;
+  color: #fff;
+}
+
+.btn-warning-rounded:hover {
+  color: #ffffff;
+}
+
+.btn-rounded:hover {
+  color: #ffffff;
+}
+.btn {
+  white-space: nowrap !important;
+}
+.option-component .btn {
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.btn:disabled {
+  background: #a2a2a2 !important;
+  cursor: not-allowed;
+}
+
+.btn-disabled {
+  background: #c3c3c3 !important;
+  cursor: not-allowed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.section-title {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  &.english {
+    font-family: "Montserrat", sans-serif;
+    color: #3e3e3e;
+  }
+}
+.text-danger {
+  color: #ff136f !important;
+}
+#root > div {
+  min-height: calc(100vh - 218px);
+}
+.footer-content {
+  position: absolute;
+  bottom: 0;
+}
+.round-n-shadow {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.round-blue-btn:hover {
+  background: linear-gradient(86.89deg, #31c4f3 50%, #343c97 170%);
+}
+
+.round-blue-btn {
+  outline: none;
+  border: 0;
+  background: linear-gradient(86.89deg, #343c97 -111.91%, #31c4f3 79.41%);
+  border-radius: 52px;
+  color: $white;
+}
+
+
+.lazy-image {
+  width: 100% !important;
+  height: unset !important;
+  position: unset !important;
+  object-fit: unset !important;
+  top: unset !important;
+  left: unset !important;
+}
+.instructor-image.lazy-image {
+  width: unset !important;
+}
+.student-image {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+  border: 10px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.invalid-input {
+  border-radius: 35px;
+  border: 1px solid #e32726 !important;
+}
+
+.low-op-btn:disabled {
+  opacity: 0.15;
+  background-color: initial !important;
+}
+
+.btn-close {
+  background: #ff0000;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 0;
+  &:hover {
+    color: #fff;
+  }
+}
+.MuiDialogContent-root::-webkit-scrollbar {
+  width: 0;
+}
+@media (max-width: 1500px) and (min-width: 1200px) {
+  // body {
+  //   zoom: 0.9;
+  // }
+}
+@media (max-width: 989px) {
+  .container {
+    max-width: 99%;
+  }
+}
+@media (max-width: 768px) {
+  .milestone-title {
+    font-size: 14px !important;
+  }
+  .section-title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .MuiPagination-ul {
+    li {
+      margin: -4px;
+    }
+    .MuiPaginationItem-root {
+      transform: scale(0.8);
+    }
+  }
+}
+@media (min-width: 1300px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1150px;
+  }
+}
+.carousel-item {
+  transition: opacity 1s ease-in-out !important;
+}
+li {
+  transition: opacity 1s ease !important;
+}
+.session-switch {
+  border: 1px solid #f5f5f5;
+  border-radius: 34px;
+  padding: 4px;
+  .btn {
+    padding: 5px 30px;
+  }
+  .btn-primary {
+    background: #6808ff !important;
+  }
+}
+.swal-footer {
+  text-align: center !important;
+}
+.rjsf {
+  #root > div {
+    min-height: unset !important;
+  }
+}
+.custom-form-builder {
+  .formHead-1-1-2 {
+    display: none !important;
+  }
+}
+
+.page-loader {
+  background-color: #8f6ccc26;
+  height: 100vh;
+  margin-bottom: -100px;
+  margin-top: -150px;
+  .fake-header {
+    height: 225px;
+    background-color: $light;
+  }
+  .fake-page-body {
+    .preloader {
+      position: absolute;
+      top: 38%;
+      left: 50%;
+      z-index: 999;
+      -webkit-transform: translate3d(-50%, -50%, 0);
+      transform: translate3d(-50%, -50%, 0);
+    }
+    .rocket-preloader {
+      width: 60px;
+      height: 60px;
+    }
+    .rocket-preloader:before,
+    .rocket-preloader:after {
+      content: "";
+      display: block;
+      background-color: #ff0000;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-animation: rocket-preloader_smoke 1s linear 1s infinite backwards;
+      animation: rocket-preloader_smoke 1s linear 1s infinite backwards;
+    }
+    .rocket-preloader:after {
+      top: 6px;
+    }
+    .rocket {
+      width: 60px;
+      height: 60px;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: contain;
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZlZmVmZSIgZD0iTTE5LjYyMSAxOS43MDljMCAwIDExLjI5NC04LjE0OSAxMC4wNDItMTcuNDc3LTAuMDI5LTAuMjA1LTAuMDk2LTAuMzM5LTAuMTc5LTAuNDMtMC4wODgtMC4wODUtMC4yMTktMC4xNTUtMC40MjEtMC4xODQtOS4xMTUtMS4yNzgtMTcuMDc4IDEwLjI3OC0xNy4wNzggMTAuMjc4LTYuOTA5LTAuODI5LTYuNDA2IDAuNTUtOS41NTggOC4xMi0wLjYwMyAxLjQ0MyAwLjM3NCAxLjk0MSAxLjQ0NiAxLjUzNCAxLjA3Mi0wLjQwMyAzLjQzOC0xLjI5OCAzLjQzOC0xLjI5OGw0LjE0MiA0LjIzOGMwIDAtMC44NzQgMi40MjEtMS4yNjkgMy41MTctMC4zOTUgMS4wOTkgMC4wOTAgMi4wOTkgMS41MDEgMS40ODMgNy4zOTgtMy4yMjcgOC43NDYtMi43MTQgNy45MzYtOS43ODJ6TTIxLjIzNCAxMC4yNDNjLTAuOTU3LTAuOTc5LTAuOTU3LTIuNTY2IDAtMy41NDYgMC45NTctMC45NzggMi41MDctMC45NzggMy40NjQgMCAwLjk1OCAwLjk3OCAwLjk1OCAyLjU2NiAwIDMuNTQ2LTAuOTU1IDAuOTgxLTIuNTA3IDAuOTgxLTMuNDY0IDB6Ij48L3BhdGg+PC9zdmc+);
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      -webkit-animation: rocket-preloader 1s linear infinite alternate backwards;
+      animation: rocket-preloader 1s linear infinite alternate backwards;
+    }
+    @-webkit-keyframes rocket-preloader {
+      0% {
+        -webkit-transform: translate3d(0, 3px, 0) rotate(45deg);
+        transform: translate3d(0, 3px, 0) rotate(45deg);
+      }
+      100% {
+        -webkit-transform: translate3d(6px, 6px, 0) rotate(45deg);
+        transform: translate3d(6px, 6px, 0) rotate(45deg);
+      }
+    }
+    @keyframes rocket-preloader {
+      0% {
+        -webkit-transform: translate3d(0, 3px, 0) rotate(45deg);
+        transform: translate3d(0, 3px, 0) rotate(45deg);
+      }
+      100% {
+        -webkit-transform: translate3d(6px, 6px, 0) rotate(45deg);
+        transform: translate3d(6px, 6px, 0) rotate(45deg);
+      }
+    }
+    @-webkit-keyframes rocket-preloader_smoke {
+      0%,
+      100% {
+        -webkit-transform: translate3d(12px, 30px, 0);
+        transform: translate3d(12px, 30px, 0);
+        opacity: 0;
+      }
+      5% {
+        opacity: 1;
+      }
+      70% {
+        -webkit-transform: translate3d(-60px, 30px, 0) rotate(45deg);
+        transform: translate3d(-60px, 30px, 0) rotate(45deg);
+        opacity: 0;
+      }
+    }
+    @keyframes rocket-preloader_smoke {
+      0%,
+      100% {
+        -webkit-transform: translate3d(12px, 30px, 0);
+        transform: translate3d(12px, 30px, 0);
+        opacity: 0;
+      }
+      5% {
+        opacity: 1;
+      }
+      70% {
+        -webkit-transform: translate3d(-60px, 30px, 0) rotate(45deg);
+        transform: translate3d(-60px, 30px, 0) rotate(45deg);
+        opacity: 0;
+      }
+    }
+  }
+}

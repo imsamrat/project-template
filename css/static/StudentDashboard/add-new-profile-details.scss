@@ -1,0 +1,28 @@
+.add-new-profile-details{
+    min-height: 65vh;
+    .icon svg{
+        font-size: 65px;
+        color: #AFAFAF;
+    }
+    p{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin: 30px 0;
+        color: #989898;
+    }
+    .btn{
+        border-radius: 45px;
+        border: 1px solid #FF136F;
+        padding: 10px 25px;
+        color: #FF136F;
+        &:hover{
+            background-color: #FF136F;
+            color: #fff;
+        }
+    }
+}
+

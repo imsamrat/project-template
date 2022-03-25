@@ -1,0 +1,452 @@
+.module-component .MuiPaper-root {
+    background: #ffffff !important;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.course-content-component {
+    background: #fafafa;
+    border-radius: 5px;
+    .semester-row {
+        margin-bottom: 50px;
+    }
+    .quote-text {
+        font-size: 22px;
+        font-weight: 600;
+        font-family: "Hind Siliguri", sans-serif;
+        color: #696984;
+        line-height: 35px;
+    }
+    .semester {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        span {
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        h4 {
+            white-space: nowrap;
+            font-weight: 600;
+            color: #696984;
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
+        }
+        .one {
+            background-color: #5b72ee;
+        }
+        .two {
+            background-color: $tomato;
+        }
+        .three {
+            background-color: #8951a3;
+        }
+        .four {
+            background-color: $light-red;
+        }
+    }
+    .milestones-map {
+        display: grid;
+        // max-width: 1000px;
+        max-height: 600px;
+        margin: 100px auto;
+        // padding-top: 50px;
+        background-position-x: center;
+        background-image: url("./../../assets/images/homepage/border-bg-1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        justify-items: center;
+        margin-top: 100px;
+        grid-template-areas:
+            "a a b c d"
+            "i h g f e"
+            "j . . . .";
+        .milestone {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: fit-content;
+            margin: 100px 0;
+            position: relative;
+            width: 100%;
+            max-width: 300px;
+            &:nth-child(odd) {
+                flex-direction: column-reverse;
+                justify-content: flex-end;
+                margin-top: 0px;
+            }
+            &:nth-child(even) {
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+            &:nth-child(1) {
+                top: -110px;
+                left: 0px;
+                &::before {
+                    content: "";
+                    background-image: url("./../../assets/icons/homepage/semester-arrow.svg");
+                    background-repeat: no-repeat;
+                    width: 200px;
+                    height: 200px;
+                    position: absolute;
+                    top: -100px;
+                }
+            }
+            &:nth-child(2) {
+                top: -120px;
+                left: -70px;
+            }
+            &:nth-child(3) {
+                top: -86px;
+            }
+            &:nth-child(4) {
+                top: -40px;
+            }
+            &:nth-child(5) {
+                top: -140px;
+                left: -20px;
+            }
+            &:nth-child(6) {
+                top: -90px;
+            }
+            &:nth-child(7) {
+                top: -80px;
+            }
+            &:nth-child(8) {
+                top: -90px;
+                left: 40px;
+            }
+            &:nth-child(9) {
+                top: 14px;
+                left: 40px;
+            }
+            &:nth-child(10) {
+                left: 25px;
+                top: -200px;
+            }
+            .semester-pointer {
+                height: 47px;
+                width: 47px;
+                border-radius: 50%;
+                font-size: 28px;
+                color: $white;
+                display: grid;
+                place-items: center;
+                position: relative;
+                &.semester-1 {
+                    background-color: #5b72ee;
+                }
+                &.semester-2 {
+                    background-color: $tomato;
+                }
+                &.semester-3 {
+                    background-color: #8951a3;
+                }
+                &.semester-4 {
+                    background-color: $light-red;
+                }
+                img {
+                    position: absolute;
+                    top: -100%;
+                    left: 45%;
+                }
+            }
+            p {
+                box-shadow: 0px 4px 18px 0px #4f85ed26;
+                padding: 10px;
+                border-radius: 6px;
+                margin: 10px 0;
+                background-color: $white;
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        .semester-row {
+            margin-bottom: 0px;
+        }
+        .milestones-map {
+            max-width: 790px;
+            max-height: 900px;
+            padding-top: 0px;
+            margin: 100px auto 0 auto;
+            background-image: url("./../../assets/images/homepage/border-bg2.png");
+            grid-template-areas:
+                "a b c d"
+                "g f e d"
+                "h i j .";
+
+            .milestone {
+                &:nth-child(1) {
+                    top: -55px;
+                    left: -45px;
+                }
+                &:nth-child(2) {
+                    top: -45px;
+                }
+                &:nth-child(3) {
+                    top: -8px;
+                }
+                &:nth-child(4) {
+                    top: -30px;
+                }
+                &:nth-child(5) {
+                    top: -80px;
+                    left: 100px;
+                }
+                &:nth-child(6) {
+                    top: -95px;
+                    left: 50px;
+                }
+                &:nth-child(7) {
+                    top: -70px;
+                }
+                &:nth-child(8) {
+                    top: -118px;
+                }
+                &:nth-child(9) {
+                    top: -85px;
+                }
+                &:nth-child(10) {
+                    top: -116px;
+                    left: 25px;
+                }
+            }
+        }
+    }
+    @media (max-width: 880px) {
+        .quote-text {
+            font-size: 18px;
+            line-height: 1.5;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+        .semester {
+            span {
+                height: 16px;
+                width: 16px;
+            }
+            h4 {
+                font-size: 16px;
+            }
+        }
+        .milestones-map {
+            max-width: 560px;
+            margin-top: 140px;
+            margin-bottom: 180px;
+            max-height: 1200px;
+            background-image: url("./../../assets/images/homepage/border-bg3.png");
+            background-position-x: center;
+            grid-template-areas:
+                "a b"
+                "c d"
+                "e f"
+                "g h"
+                "i j";
+            .milestone {
+                .semester-pointer {
+                    height: 32px;
+                    width: 32px;
+                    font-size: 18px;
+                    img {
+                        position: absolute;
+                        top: -145%;
+                    }
+                }
+                &:nth-child(1) {
+                    top: -90px;
+                    left: 70px;
+                    &::before {
+                        width: 100px;
+                        height: 100px;
+                        top: -100px;
+                        left: -20px;
+                        transform: rotate(-40deg);
+                    }
+                }
+                &:nth-child(2) {
+                    left: -50px;
+                }
+                &:nth-child(3) {
+                    left: -55px;
+                    top: -75px;
+                }
+                &:nth-child(4) {
+                    top: -80px;
+                }
+                &:nth-child(5) {
+                    left: -10px;
+                    top: -130px;
+                }
+                &:nth-child(6) {
+                    top: -115px;
+                    left: 30px;
+                }
+                &:nth-child(7) {
+                    top: -130px;
+                    left: 20px;
+                }
+                &:nth-child(8) {
+                    top: -123px;
+                }
+                &:nth-child(9) {
+                    top: -140px;
+                    left: 43px;
+                }
+                &:nth-child(10) {
+                    top: -150px;
+                    left: 60px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    @media (max-width: 710px) {
+        .milestones-map {
+            max-width: 350px;
+            max-height: 1000px;
+            .milestone {
+                &:nth-child(1) {
+                    top: -140px;
+                    left: 25px;
+                    &::before {
+                        top: -40px;
+                        left: -90px;
+                    }
+                }
+                &:nth-child(2) {
+                    left: -25px;
+                }
+                &:nth-child(3) {
+                    left: -50px;
+                    top: -160px;
+                }
+                &:nth-child(4) {
+                    top: -150px;
+                    left: 70px;
+                }
+                &:nth-child(5) {
+                    left: -40px;
+                    top: -280px;
+                }
+                &:nth-child(6) {
+                    top: -265px;
+                    left: 60px;
+                }
+                &:nth-child(7) {
+                    top: -350px;
+                }
+                &:nth-child(8) {
+                    top: -345px;
+                    left: 64px;
+                }
+                &:nth-child(9) {
+                    top: -435px;
+                    left: 10px;
+                }
+                &:nth-child(10) {
+                    top: -444px;
+                    left: 77px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 520px) {
+        .quote-text {
+            font-size: 14px;
+        }
+        .semester {
+            span {
+                height: 12px;
+                width: 12px;
+            }
+            h4 {
+                font-size: 12px;
+            }
+        }
+        .milestones-map {
+            max-width: 200px;
+            max-height: 600px;
+            .milestone {
+                .semester-pointer {
+                    height: 27px;
+                    width: 27px;
+                    font-size: 14px;
+                    img {
+                        display: none;
+                    }
+                }
+                &:nth-child(1) {
+                    left: -10px;
+                    top: -130px;
+                }
+                &:nth-child(2) {
+                    left: -50px;
+                    top: -70px;
+                }
+                &:nth-child(3) {
+                    left: -58px;
+                    top: -267px;
+                }
+                &:nth-child(4) {
+                    top: -255px;
+                    left: -10px;
+                }
+                &:nth-child(5) {
+                    top: -474px;
+                }
+                &:nth-child(6) {
+                    top: -446px;
+                    left: -10px;
+                }
+                &:nth-child(7) {
+                    top: -654px;
+                    left: -17px;
+                }
+                &:nth-child(8) {
+                    top: -635px;
+                    left: -10px;
+                }
+                &:nth-child(9) {
+                    top: -810px;
+                    left: -10px;
+                }
+                &:nth-child(10) {
+                    top: -836px;
+                    left: 0;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .milestone-title-responsive {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px !important;
+        color: $black;
+    }
+    @media only screen and (min-width: 425px) {
+        .milestone-title-responsive {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: $black;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .course-content-component {
+        .container {
+            max-width: 100% !important;
+        }
+    }
+}

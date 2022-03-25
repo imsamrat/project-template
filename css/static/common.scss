@@ -1,0 +1,21 @@
+.text-editor-format {
+  p, ul {
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  p, li, a {
+      font-size: 14px;
+  }
+}
+.ReactModal__Body--open {
+  // .enroll-now-tab {
+  //   .nav-link:active {
+  //     background-color: unset !important;
+  //     border-color: #c4c9d0 !important;
+  //  }
+  // }
+}
+
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}

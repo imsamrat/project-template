@@ -1,0 +1,145 @@
+.student-submitted-issue-form {
+    .title-message {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        width: 254px;
+        height: 26px;
+    }
+    .issue-submit-box {
+        height: 115px;
+        border: 1px solid #D6D6D6;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 100%;
+        resize: none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .issue-submit-box:hover,:focus {
+        outline: unset !important;
+    }
+    .submit-button {
+        height: 42px;
+        border: unset;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: #6808FF;
+        color:white;
+        min-width: 31%;
+    }
+    .cancel-button {
+        height: 48px;
+        box-sizing: border-box;
+        min-width: 31%;
+        background: #F5F5F5;
+        border-radius: 5px;
+    }
+
+    .btn:focus {
+        box-shadow: unset !important;
+    }
+
+    .serial-title {
+        height: 24px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .serial-title:empty {
+        display: none;
+    }
+
+    .serial-number {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        color: #333333;
+    }
+
+    .join-button {
+        line-height: 2.1;
+    }
+
+    .tag-button {
+        border: unset;
+        background: #F5F5F5;
+        border-radius: 15px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #333333;
+    }
+
+    .tag-active {
+        color:white;
+        background: #6808FF;
+    }
+
+    .ash-div {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+
+        font-size: 14px;
+        line-height: 32px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #000000;
+        background: #F5F5F5;
+        border-radius: 5px;
+    }
+
+
+    .pink-div {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: #FF136F;
+        background: #FEEAF2;
+        border-radius: 5px;
+
+    }
+
+    .light-green-div {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: #02B354;
+        background: #E1FFF8;
+        border-radius: 5px;
+    }
+
+    .join-now-cover-image {
+        width: 50%;
+    }
+    .approx-time {
+        font-size: 18px;
+    }
+}

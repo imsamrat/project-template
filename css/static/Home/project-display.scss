@@ -1,0 +1,100 @@
+.project-display-component {
+    background-color: $ghost-white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .swiper-wrapper{
+        padding: 50px 0px;
+        .swiper-slide-shadow-left,
+        .swiper-slide-shadow-right
+        {
+            background: unset;
+        }
+    }
+    .btn{
+        background: linear-gradient(45deg, $pink, $light-pink);
+    }
+    .html-button {
+        background: linear-gradient(45deg, $pink, $light-pink);
+    }
+
+    .css-button {
+        background: linear-gradient(45deg, $blue, $light-blue);
+    }
+    .bootstrap-button, .firebase-button, .node-button {
+        background: linear-gradient(45deg, #4289FF, #07F8C3);
+    }
+    .react-button, .google-map-button {
+        background: linear-gradient(45deg,#5E51FC, #7593F5);
+    }
+   
+    
+     .react-router-button, .basic-javascript-button {
+        background: linear-gradient(45deg,#FF9C35,#FFD019);
+    }
+    .heroku-button {
+        background: linear-gradient(45deg,#4F59FF,#15DBFF);
+    }
+    .material-ui-button , .image-processing{
+        background: linear-gradient(45deg,#4289FF,#07F8C3);
+    }
+    .dev-tool-button{
+        background: linear-gradient(45deg,#2BDE8C, #86F244);
+    }
+    .debugging-button{
+        background: linear-gradient(45deg,#5165FC,#7BF593);
+    }
+    .mongodb-button  {
+        background: linear-gradient(45deg,#FF6480,#F22E63);
+    }
+   
+    .project-dislay-card {
+        border-radius: 16px;
+        font-size: 10px !important;
+        .card-text{
+            margin-top: 10px;
+            font-size: 14px !important;
+            line-height: 20px;
+        }
+    }
+
+    .btn {
+        height: 26px;
+        padding-top: 2px;
+        margin: 3px 0;
+        box-shadow: unset;
+        border-radius: 16px;
+        color: white;
+    }
+    .card{
+        border: 0;
+    }
+
+    .card-body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .bootstrap-button {
+        background: linear-gradient(45deg, $skyBlue, $skyBlue);
+    }
+
+    .carousel-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+   
+    .box-shadow {
+        box-shadow: 0px 0px 35px -2px rgba(72, 73, 121, 0.15);
+        }
+    @media screen and (max-width: 991px) {
+        .btn:nth-child(3n) {
+            margin-top: 10px;
+        }
+    }
+    @media (max-width:768px) {
+        .project-display-title {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.custom-accordion-component {
+    border-radius: 10px;
+    .sub-milestone-title {
+        color: #9fa5a5;
+        font-size: 12px;
+
+      
+    }
+
+    .row {
+        height: 49px;
+    }
+
+
+    .MuiAccordionSummary-content.Mui-expanded {
+        margin-bottom: 5px !important;
+    }
+
+    .MuiPaper-elevation1 {
+        box-shadow: unset !important;
+        border-radius: 10px !important;
+    }
+
+    .MuiAccordionSummary-root.Mui-expanded {
+        height: 70px !important;
+        min-width: unset !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+    box-shadow: none;
+}

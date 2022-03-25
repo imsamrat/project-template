@@ -1,0 +1,233 @@
+.profile-basic-component {
+
+	.profile-basic-card {
+		padding-left: 15px;
+		padding-right: 15px;
+		border: unset !important;
+	}
+		
+	.cadidate-name {
+		font-family: Poppins;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 30px;
+		letter-spacing: 0em;
+		height: 30px;
+		margin-bottom: 0px;
+
+	}
+
+	.basic-info-text {
+		font-family: Poppins;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0em;
+		color: #5E5E5E;
+
+	}
+
+	.head-action-div {
+		background-color: #F3F3F3;
+		padding: 6px 10px;
+		margin-top: 15px;
+		border-radius: 4px;
+		font-size: 13px;
+
+		svg{
+			font-size: 17px;
+		}
+
+		.MuiButtonBase-root {
+			background-color: unset !important;
+			color: #000;
+			box-shadow: unset !important;
+		}
+		.MuiButton-contained:hover {
+			box-shadow: unset !important;
+		}
+		.MuiButton-contained:active {
+			box-shadow: unset !important;
+		}
+		.MuiButton-contained:focus {
+			outline: unset !important;
+		}
+		.MuiButton-label{
+			justify-content: start !important;
+		}
+		.buttons{
+			flex: 1;
+			align-items: center;
+			
+			button{
+				border: 0;
+				box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+				margin-right: 5px;
+				padding: 6px 10px;
+				border-radius: 4px;
+			}
+			
+			
+		}
+		
+	}
+
+	.head-action-button {
+		background-color: #fff;	
+		color: #606060;
+		padding: 2px;
+		border-radius: 4px;
+		font-size: 13px;
+		cursor: pointer ;
+		display: flex;
+	}
+
+	.self-info {
+		margin-top: 30px;
+	}
+
+	.head-action-row {
+		margin: 0px
+	}
+
+	.section-title {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 18px;
+		text-transform: uppercase;
+		color: #979797;
+	}
+
+	.applied-job-info {
+		border: 1px solid #C1C1C1;
+		box-sizing: border-box;
+		border-radius: 4px;
+		padding: 10px;
+	}
+
+	.job-title {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #5E24F9;
+	}
+
+	.image-icon {
+		height: 21px;
+	}
+
+	.skill-div {
+		border: 1px solid #888080;
+		box-sizing: border-box;
+		border-radius: 30px;
+		padding: 7px 12px;
+	}
+
+	.skill-col {
+		padding: 2px;
+	} 
+
+	.job-type {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 18px;
+		text-transform: uppercase;
+		color: #A9A9A9;
+		height: 18px;
+	}
+
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #FFFFFF;
+		min-width: 160px;
+		z-index: 1;
+		box-shadow: 0px 5.64912px 14.1228px rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		top: 35px;
+		right: 1px;
+		text-align: left;
+		padding: 10px;
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdown-section {
+		padding: 5px;
+		cursor: pointer;
+	}
+
+	.dropdown-content .dropdown-section:hover {background-color: #f1f1f1}
+
+	.selected-dropdown {
+		background-color: #f1f1f1;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
+	.cursor-pointer {
+		cursor: pointer ;
+	}
+
+	
+
+}
+
+.profile-basic-tag-input {
+
+	.go309598777 {
+		outline: unset;
+		border: unset;
+		padding-left: 0;
+		
+	}
+	.rti--tag{
+		background: #F0F0F0;
+		border-radius: 30px;
+		padding: 6px 16px;
+		margin-right: 5px;
+		margin-bottom: 4px;
+	}
+	.go3450369076 {
+		display: none;
+	}
+	.rti--container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+}
+
+.jpi-skill-tags{
+	.rti--tag{
+		background-color: transparent;
+		border: 1px solid #444;
+		cursor: pointer;
+	}
+	.rti--tag.active{
+		background-color: rgba(127, 255, 212, 0.637);
+	}
+}

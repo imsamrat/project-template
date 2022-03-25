@@ -1,0 +1,145 @@
+.course-summary-component {
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 14px;
+    }
+  }
+}
+
+.extra-player-options {
+  background: #1e1747;
+  padding: 2.5px;
+  color: #fff !important;
+  span,
+  svg {
+    color: #fff !important;
+    font-size: 21px;
+  }
+  img {
+    width: 21px;
+  }
+  span {
+    font-size: 13.5px;
+    margin-left: 4px;
+  }
+  .btn:disabled {
+    background-color: transparent !important;
+  }
+}
+.conceptual-session-page .extra-player-options{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.bookmark-tag-wrapper,
+.bookmark-popover {
+  .btn-no {
+    width: 80px;
+    height: 34px;
+    border: 1px solid #858585;
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 0;
+  }
+  .btn-yes {
+    width: 80px;
+    height: 34px;
+    background: #4289ff;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 0;
+  }
+  .form-control {
+    border-radius: 5px !important;
+  }
+  .form-control.focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #4289ff;
+  }
+  .rbt-menu {
+    margin-bottom: 2px;
+    border-radius: 5px;
+    border: 1px solid #f5f5f5;
+    margin-top: 5px;
+    max-height: 200px !important;
+  }
+  .rbt-menu > .dropdown-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    /* width: auto; */
+    display: block;
+    &:hover {
+      background: #6808FF;
+      color: #fff;
+    }
+  }
+  .rbt-input-multi.form-control {
+    padding: 8px;
+  }
+  .rbt-token {
+    background: #F1F1F1;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    word-break: break-all;
+    margin-right: 5px;
+    .rbt-close {
+      margin-right: 4px;
+      width: 12px;
+      height: 12px;
+      background: #adadad;
+      border-radius: 50%;
+      color: #fff;
+      text-align: center;
+      padding: 0px;
+      margin-top: 8px;
+      font-size: 13px;
+      padding-top: 0;
+      line-height: 0;
+      padding-bottom: 2px !important;
+    }
+  }
+}
+.bookmark-popover {
+  max-width: 310px;
+
+  border: none;
+  box-shadow: 1px 6px 20px 0px #ddd;
+  .rbt-input-multi.form-control {
+    min-width: 200px;
+    max-width: 100%;
+    padding: 8px;
+  }
+  .rbt-input-multi.form-control:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #4289ff;
+  }
+  
+}
+
+.bookmark-tag-wrapper{
+  .rbt-close{
+    padding-top: 1px !important;
+    padding-bottom: 0 !important;
+    line-height: unset !important;
+  }
+  .btn-yes{
+    height: 38px;
+  }
+}
+.bookmark-popover::before {
+  background: #fff;
+  left: 45%;
+  position: absolute;
+  top: -7px;
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: block;
+  transform: rotate(45deg);
+  z-index: -1;
+}

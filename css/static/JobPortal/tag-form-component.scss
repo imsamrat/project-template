@@ -1,0 +1,71 @@
+.tag-form-component {
+	.ReactTags__remove {
+		border: unset !important;
+	}
+
+	.ReactTags__remove:focus {
+		border: unset !important;
+		outline: unset !important;
+	}
+
+	.ReactTags__tag {
+		background-color: #f0f0f0;
+    	padding: 6px;
+    	border-radius: 8px;
+    	outline: unset;
+	}
+
+	.ReactTags__selected {
+		display: flex;
+	    flex-wrap: wrap;
+	}
+
+	.ReactTags__tag:not(:first-child) {
+    	margin-left: 5px;
+}
+
+	.ReactTags__tagInputField {
+
+    border: unset;
+    padding-top: 7px;
+    padding-left: 7px;
+
+	}
+
+
+	.ReactTags__tagInputField:focus-visible {
+    	outline: unset !important;
+	}
+	.ReactTags__tagInput:focus-visible {
+    	outline: unset !important;
+	}
+
+	.tag-update-cancel-button-section {
+		padding-top: 50px;
+	}
+
+	.update-button {
+		width: 119px;
+		height: 42px;
+		color: #fff;
+		outline: unset;
+		border: unset;
+		background: linear-gradient(335.64deg, #FF589B -19.22%, #FF136F 118.87%);
+		border-radius: 4px;
+		margin-left: 5px;
+	}
+
+	.cancel-button {
+		border: 1px solid #777777;
+		box-sizing: border-box;
+		border-radius: 4px;
+		margin-right: 10px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 100%;
+		color: #777777;
+
+	}
+}

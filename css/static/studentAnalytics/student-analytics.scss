@@ -1,0 +1,95 @@
+.student-analytics {
+  .analytics {
+    border: 1px solid #d8dbe0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 92% !important;
+    
+    .title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      text-transform: capitalize;
+      color: #000000;
+    }
+    @media screen and (max-width: 700px ) {
+      height: 98% !important;
+      .title{
+        font-size: 16px;
+      }
+    }
+    .reward {
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .calender {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 12px 20px;
+      .day {
+        background: #eeeeee;
+        border-radius: 4px;
+        padding: 10px 0;
+        text-align: center;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+        text-transform: capitalize;
+
+        color: #9f9f9f;
+      }
+      .day.active {
+        background: #684efb;
+        color: #fff;
+      }
+    }
+    .total-duration {
+      background: #f4eeff;
+      border-radius: 4px;
+      color: #824ffb;
+      padding: 5px 10px;
+      align-items: center;
+      display: inline-block;
+      text-align: center;
+      justify-content: start;
+    }
+    .info-icon{
+        color: #C4C4C4 !important;
+        font-size: 19px;
+        margin-left: 10px;
+    }
+    .assignment-analytics-box{
+        box-shadow: unset !important;
+    }
+    .quiz-analytics-legend{
+      margin-left: 20px;
+      position: relative;
+      li::before{
+        position: absolute;
+        left: -20px;
+        margin-top: 5px;
+        content: ".";
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: #ECECEC;
+        border-radius: 50%;
+      }
+      li.complete::before{
+        background-color: #824FFB;
+      }
+      li.incomplete::before{
+        background-color: #ED6734;
+      }
+    }
+  }
+}

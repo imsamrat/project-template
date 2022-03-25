@@ -1,0 +1,29 @@
+.footer-component {
+    .social-icons {
+        li {
+            margin-right: 25px;
+        }
+        svg {
+            color: #fff;
+            font-size: 24px;
+        }
+    }
+    background: $primary;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    .footer-column {
+        padding-top: 25px;
+    }
+    span {
+        width: 25px;
+        display: inline-block;
+    }
+    .bin-id {
+        small {
+            color: #cdcdcd4d;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.jpi-candidates{
+    margin: 0;
+
+    .PrivateNotchedOutline-root-23{
+        border: 0;
+        border-radius: 4px;
+    }
+    label{
+        color: #878787;
+    }
+    .cards{
+        // margin-right: 10px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px;
+        p{
+            font-family: Hind Siliguri;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+    .card-fonts{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+    }
+    .btn{
+        background: #5E24F9;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .remote-intern{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #868686;
+    }
+    .location{
+        height: 18px;
+        width: 20px;
+        left: 16.67%;
+        right: 16.67%;
+        padding-top: 2px;
+        color: #868686;
+    }
+    .remote{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #868686;
+    }
+    .user-icon-div{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background: #EBF9EA;
+        padding: 3px;
+    }
+    .user-icon{
+        width: 35px;
+        height: 35px;
+        color: #3BC83B;
+        padding-top: 5px;
+    }
+    h4{
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 26px;
+        padding-left: 10px;
+        color: #000000;
+        padding-top: 10px;
+    }
+    .card-fonts-p{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        padding-left: 60px;
+    }
+}

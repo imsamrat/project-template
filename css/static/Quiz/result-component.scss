@@ -1,0 +1,56 @@
+.result-component {
+    .trophy{
+        margin-top: 30px;
+        height: 150px;
+    }
+
+    .status-div {
+        height: 55px;
+        width: 134px;
+        border-radius: 14px;
+        color: white;
+    }
+
+    .question-answered-div {
+        // margin-right: 12px;
+        background: linear-gradient(180deg, #684EFB 0.01%, #5A00DD 100.01%);
+        border-radius: 11px;
+        padding: 5px;
+        height: auto;
+    }
+
+    .result-statistic {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .score-title {
+        opacity: 0.5;
+        margin-left: 12px;
+        font-size: 14px;
+    }
+
+    .question-answered-title {
+        // margin-right: 12px;
+        font-size: 14px;
+    }
+
+
+    .retake-button {
+        height: 39px;
+        color: white;
+        // margin-right: 14px;
+        border-radius: 43px;
+        color: #FF136F;
+        border: 1px solid #FF136F;
+        box-sizing: border-box;
+        padding: 0 35px;
+
+    }
+
+}
+
+.trophy {
+    max-width: 50%;
+}

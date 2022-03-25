@@ -1,0 +1,530 @@
+.profile-page {
+    .info-card {
+        background: $white;
+
+        .Toastify__toast-container {
+            position: absolute !important;
+            width: 377px !important;
+            left: 50% !important;
+            bottom: -50px !important;
+            @media (max-width: 500px) {
+                left: 0 !important;
+                width: 100% !important;
+            }
+            @media (min-width: 501px) and (max-width: 756px) {
+                left: 50% !important;
+                width: 100% !important;
+            }
+        }
+        .single-job-experience {
+            p {
+                font-size: 14px;
+            }
+        }
+        a,
+        p {
+            word-break: break-word;
+        }
+    }
+    .form-control {
+        border: 1px solid #d1d1d1;
+        border-radius: 35px;
+        color: #000000;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    textarea.form-control {
+        border-radius: 10px;
+    }
+    select {
+        -moz-appearance: none; /* Firefox */
+        -webkit-appearance: none; /* Safari and Chrome */
+        background: transparent;
+        background-image: url('data:image/svg+xml;utf8,<svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.00006 0.500013C1.13167 0.499252 1.26213 0.524477 1.38397 0.574242C1.50581 0.624006 1.61662 0.697331 1.71006 0.790013L5.00006 4.10001L8.30006 0.920013C8.48742 0.733762 8.74088 0.629221 9.00506 0.629221C9.26925 0.629221 9.5227 0.733762 9.71006 0.920013C9.80379 1.01298 9.87818 1.12358 9.92895 1.24544C9.97972 1.3673 10.0059 1.498 10.0059 1.63001C10.0059 1.76203 9.97972 1.89273 9.92895 2.01459C9.87818 2.13645 9.80379 2.24705 9.71006 2.34001L5.71006 6.20001C5.52313 6.38324 5.27181 6.48587 5.01006 6.48587C4.74831 6.48587 4.49699 6.38324 4.31006 6.20001L0.310061 2.20001C0.216333 2.10705 0.141939 1.99645 0.0911698 1.87459C0.0404009 1.75273 0.0142636 1.62202 0.0142636 1.49001C0.0142636 1.358 0.040401 1.22729 0.0911698 1.10544C0.141939 0.983576 0.216333 0.872975 0.310061 0.780012C0.495438 0.601331 0.742592 0.501038 1.00006 0.500013Z" fill="black"/></svg>');
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 13px);
+        background-position-y: 14px;
+        appearance: none;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #646464;
+    }
+    .profile-photo {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .bread-crumb {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .cancel-btn {
+        border: 1px solid #777777cc;
+        color: #777777;
+        background-color: transparent;
+        border-radius: 52px !important;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .edit-project button {
+        border: none !important;
+        padding: 0;
+        color: #808080 !important;
+        span.edit {
+            display: none;
+            padding-right: 30px;
+        }
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+    .job-applications {
+        thead {
+            background: #f4f4f4;
+            border-radius: 5px;
+            color: #565656;
+            font-size: 15px;
+        }
+        td {
+            color: #000000;
+            font-size: 15px;
+        }
+        .btn-pending {
+            background: #fff7e1;
+            border: 1px solid #ffa325;
+            box-sizing: border-box;
+            border-radius: 39px;
+        }
+        .btn-pending {
+            background: #fff7e1;
+            border: 1px solid #ffa325;
+            box-sizing: border-box;
+            border-radius: 39px;
+            color: #ef8f0c;
+        }
+        .btn-shortlisted {
+            background: #edf3ff;
+            border: 1px solid #256fff;
+            color: #256fff;
+            box-sizing: border-box;
+            border-radius: 39px;
+        }
+        .btn-pending-task {
+            background: #ff136f;
+            border-radius: 39px;
+            color: #ffffff;
+        }
+        .btn-submitted-task {
+            color: #ff136f;
+            background: #ffe9f1;
+            border: 1px solid #ff136f;
+            box-sizing: border-box;
+            border-radius: 39px;
+        }
+        .btn-interview {
+            background: #3ac55a;
+            border-radius: 39px;
+            color: white;
+        }
+        .btn-rejected {
+            background: #ec3c47;
+            border-radius: 39px;
+            color: white;
+        }
+        .info-icon {
+            color: #6d6d6d;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }
+    .certification {
+        background: #ffffff;
+        // box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ededed;
+        padding: 15px;
+        border-radius: 10px;
+        thead {
+            background: #f4f4f4;
+            border-radius: 5px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #6c6c6c;
+        }
+        tr,
+        td {
+            vertical-align: middle;
+        }
+    }
+    .progress-data {
+        .progress-bar {
+            background: #ff136f;
+        }
+        .progress {
+            height: 10px;
+            border-radius: 30px;
+        }
+        .btn {
+            min-width: 160px;
+            max-width: 100%;
+        }
+        .btn-pending {
+            background: #fffaeb !important;
+            border: 1px solid #e3bd27 !important;
+            box-sizing: border-box;
+            border-radius: 39px !important;
+            color: #e3bd27 !important;
+        }
+        .btn-rejected {
+            background: #ffebf2 !important;
+            border: 1px solid #e32727 !important;
+            color: #e32727 !important;
+            box-sizing: border-box;
+            border-radius: 39px !important;
+        }
+    }
+
+    .react-datepicker-wrapper,
+    .react-datepicker {
+        display: block;
+    }
+    .react-datepicker__year-wrapper {
+        max-width: unset !important;
+    }
+    .react-datepicker-popper {
+        width: 92%;
+    }
+    .course-reset {
+        .btn-reseted:disabled {
+            background: #ffe8f1 !important;
+            border-radius: 26px;
+            color: #ff136f;
+            font-weight: 500;
+            padding: 4px 15px;
+        }
+        .btn-outline-primary.custom-modal-button {
+            border: 0 !important;
+            padding: 0;
+            font-weight: 700;
+        }
+        .btn-outline-primary.custom-modal-button:hover {
+            background: transparent;
+        }
+    }
+}
+
+.student-skill-set-ui {
+    margin-left: -20px;
+    width: calc(100% + 40px);
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    li {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        padding: 15px 35px;
+        padding-bottom: 0;
+
+        p {
+            font-size: 15px;
+            line-height: 14px;
+        }
+    }
+}
+
+.custom-modal {
+    .rest-course-btn {
+        background: linear-gradient(335.64deg, #ff589b -19.22%, #ff136f 118.87%);
+        border-radius: 4px;
+        color: white;
+    }
+}
+//common styles
+.profile-section-gap {
+    margin-top: 52px !important;
+}
+//personal profile
+
+.personal-profile {
+    .user-title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #353536;
+    }
+    .user-bio {
+        label {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: $black;
+        }
+        .user-warning-text {
+            font-size: 14px;
+        }
+        .user-feild {
+            background: #f2f4f8;
+            border-radius: 5px;
+            height: 40px;
+            margin-bottom: 15px;
+            input {
+                outline: 0 !important;
+            }
+
+            p {
+                color: $dark-grey;
+            }
+        }
+        a {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            text-decoration-line: underline;
+            color: #5b05df;
+            cursor: pointer;
+        }
+    }
+    .edit-img-section {
+        position: relative;
+    }
+    .profile-edit {
+        height: 36px;
+        width: 36px;
+        background: #21a9ff;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 12px;
+        right: 40%;
+        span {
+            color: $white;
+        }
+        label{
+            i{
+                margin-top: 8px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        p {
+            font-size: 13px;
+        }
+    }
+}
+
+//student address
+
+// common style
+.uderline-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: $light-primary;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    p {
+        margin: 5px 0px;
+    }
+}
+
+.student-address {
+    .adress-checkbox {
+        label {
+            color: $dark-grey;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        @media (min-width: 320px) and (max-width: 375px) {
+            label {
+                font-size: 8px;
+            }
+        }
+        @media (min-width: 376px) and (max-width: 500px) {
+            label {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+// student education
+.student-education {
+    .user-choise-option-item {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        outline: 0;
+        padding: 7px;
+        color: $light-primary;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+    }
+}
+
+//student job profile
+.outline {
+    outline: 0;
+}
+.student-job-profile {
+    .user-question {
+        p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: $black;
+        }
+        label {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+        }
+    }
+    .user-cv-drop {
+        p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 25px;
+        }
+        label {
+            cursor: pointer;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            color: #0072f9;
+        }
+
+        #upload-photo {
+            opacity: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+}
+
+//student-job-experience
+.student-job-experience {
+    .user-textarea-feild {
+        background: #f2f4f8;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        textarea {
+            margin-top: 5px;
+            outline: 0 !important;
+        }
+
+        p {
+            color: $dark-grey;
+        }
+    }
+    label {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: $black;
+    }
+}
+// student-job-applications
+.student-job-applications {
+    .not-applied-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: $black;
+    }
+}
+
+// student-got-hired
+.student-got-hired {
+    .description {
+        p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: $dark-grey;
+        }
+    }
+}
+
+//order history
+.student-order-history {
+    .success-msg-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 16px;
+        color: #009d00 !important;
+    }
+    .rejected-msg-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 16px;
+        color: #ff5033 !important;
+    }
+    .invoice-download-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        text-decoration-line: underline;
+        color: #0072f9;
+    }
+    .table {
+       
+        thead {
+            background: #f4f4f4;
+            border-radius: 5px;
+            text-align: center;
+        }
+        th {
+            white-space: nowrap;
+            color: #6c6c6c;
+            font-weight: normal;
+        }
+        th,
+        td {
+            border: 0 !important;
+            // padding: 0 !important;
+        }
+        td {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: $black;
+            padding: 5px 0px !important;
+            text-align: center;
+            // span{
+            //     margin-left: 12px;
+            // }
+        }
+    }
+}

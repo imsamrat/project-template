@@ -1,0 +1,21 @@
+.about-instructor-component {
+    background: #fafafa;
+    border-radius: 5px;
+    .instructor-image {
+        max-height: 250px;
+    }
+    .instructor-name {
+        color: #1c2074;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .quote {
+        font-size: 16px;
+        color: #696984;
+        text-align: justify;
+    }
+    .see-more-btn {
+        cursor: pointer;
+        color: $primary;
+    }
+}

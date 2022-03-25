@@ -1,0 +1,97 @@
+.admin-email-and-sms-page {
+  .btn {
+    border-radius: 8px;
+    border: 0 !important;
+    display: flex;
+    align-items: center;
+    svg {
+      font-size: 18px;
+      // padding-top: 10px;
+      margin-right: 10px;
+    }
+  }
+  .btn-success {
+    background-color: #e6f7ee;
+    color: #02b354 !important;
+  }
+  .btn-info {
+    color: #4289ff !important;
+    background-color: #ecf2ff;
+  }
+  .nav-pills {
+    padding: 8px !important;
+    box-shadow: 0px 0px 13px rgba(9, 30, 66, 0.1);
+    border-radius: 8px;
+    a {
+      color: #000;
+    }
+    .active {
+      background-color: #6808ff;
+      border-radius: 8px;
+    }
+    li a {
+      padding: 12px;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+  .search-wrapper {
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+    padding: 7px 13px;
+    height: 54px !important;
+    input {
+      margin-top: 5px;
+    }
+    .chip {
+      background: rgba(2, 179, 84, 0.1) !important;
+      border-radius: 5px;
+      color: #02b354 !important;
+      padding: 7px 10px;
+      margin-right: 8px;
+      .icon-cancel::before,
+      i {
+        font-size: 15px !important;
+      }
+    }
+    .chip:nth-child(even) {
+      background: rgba(235, 153, 110, 0.1) !important;
+      color: #eb996e !important;
+    }
+  }
+  .optionListContainer {
+    .highlight {
+      background: #6808ff !important;
+    }
+    li:hover {
+      background: #6808ff !important;
+    }
+  }
+
+  .stats {
+    width: 200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 13px rgba(9, 30, 66, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    p{
+        margin-bottom: 10px;
+    }
+  }
+  .drop-file {
+    background: #faf7ff;
+    /* Primary-100 */
+
+    border: 1px dashed #6808ff;
+    border-radius: 24px;
+
+    .upload-label {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.001em;
+      color: #858585;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.success-page {
+    background-color: #F6F6F6;
+    .footer-bg{
+        color: white;
+        
+    }
+    img{
+        margin: 0 !important;
+        width: 100% !important;
+        object-fit: cover !important;
+        height: 248px !important;
+        // max-width: 100%;
+        @media (max-width:1000px) {
+            height: auto !important;
+        }
+    }
+    .quote{
+        color: #0F122F;
+        position: relative;
+        z-index: 1;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .quote:before{
+        content: "\275D";
+        
+        left: -5px;
+        top: 5px;
+        @media (max-width:1000px) {
+            left: 0;
+        }
+    }
+    .quote:after{
+        line-height: 10px;
+        content: "\275E";
+    }
+    .quote:before,
+    .quote:after{
+        font-size: 3rem;
+        color: rgba(0, 0, 0, 0.05);
+        position: absolute;
+        right: 50px;
+        z-index: -1;
+    }
+
+   
+    .read-more{
+        color: #FF136F;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .batch{
+        background-color: rgba(255, 255, 255, 0.13);
+        height: 100%;
+        width: 100px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #student_1 .footer-bg{
+        background-color: #5A00DD;
+    }
+    #student_2 .footer-bg{
+        background-color: #EE2D79;
+    }
+    #student_3 .footer-bg{
+        background-color: #3984FF;
+    }
+    #student_4 .footer-bg{
+        background-color:#FA5649;
+    }
+    #student_5 .footer-bg{
+        background-color: #FFA113;
+    }
+    #student_6 .footer-bg{
+        background-color: #5A00DD;
+    }
+    #student_7 .footer-bg{
+        background-color: #EE2D79;
+    }
+    #student_8 .footer-bg{
+        background-color: #3984FF;
+    }
+    
+    .batch-tab{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 5px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 6px;
+        .batch{
+            color: #000;
+            text-align: center;
+            padding: 8px;
+            cursor: pointer;
+        }
+        .active{
+            border-radius: 5px;
+            color: #ffffff;
+            background-image:  linear-gradient(180deg, #684EFB 0.01%, #5A00DD 100.01%);
+        }
+    }
+}

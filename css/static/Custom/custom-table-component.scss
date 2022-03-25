@@ -1,0 +1,110 @@
+.custom-table-component {
+    .btn-icon {
+        padding-left: 1px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .btn-eye-icon {
+        padding-left: 0.04em !important;
+        padding-right: 0.04em;
+        height: 27px;
+        width: 27px;
+    }
+
+    .btn-user-lock-font-size {
+        font-size: 12px;
+    }
+
+    .file-button {
+        padding-left: 0.4em !important;
+        padding-right: 0.4em;
+        height: 27px;
+    }
+
+    .file-button:hover {
+        box-shadow: unset;
+    }
+
+    .bulk-add {
+        padding-top: 2px;
+    }
+
+    .btn-eye-icon:hover {
+        box-shadow: unset;
+    }
+
+    .row-mouse-cursor {
+        cursor: pointer;
+    }
+    td,th {
+        overflow-wrap: normal;
+        
+    }
+    td:last-child{
+        // width: 170px;
+        overflow-wrap: break-word;
+        white-space: nowrap;
+    }
+
+    @media(max-width:768px) {
+        td,th{
+            white-space: nowrap;
+        }
+        .custom-control-label::before, .custom-file-label, .custom-select, .form-control{
+            margin: 5px 0;
+        }
+    }
+}
+.course-list-table{
+    
+    td:first-child{
+       max-width: 280px;
+    }
+
+    .custom-modal{
+        display: inline-block;
+        
+        button{
+            color: goldenrod;
+            &:hover{
+                background: transparent !important;
+                color: goldenrod;
+            }
+            padding: 0 !important;
+            border:0 !important;
+            svg{
+                width: 27px;
+                height: 27px;
+            }
+        } 
+    }
+    
+}
+.order-table{
+    td:nth-child(4) {
+        max-width: 180px;
+    }
+}
+.faq-table{
+    @media(max-width:768px) {
+        td,th{
+            max-width: 300px;
+            overflow-wrap: break-word;
+            white-space: unset;
+        }
+       
+    }
+}
+
+.module-progress{
+    table .custom-modal .custom-modal-button{
+        margin-top: -4px !important;
+    }
+}
+
+.filtered-course-table{
+    .table-responsive {
+        overflow: visible !important;
+    }
+}

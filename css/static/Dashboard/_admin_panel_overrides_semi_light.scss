@@ -1,0 +1,312 @@
+// Import CoreUI styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+$body-bg: #fff;
+$body-color: #555555;
+$sidebar-bg: #f3f7ff;
+$admin-primary: #6808ff;
+$admin-danger: #ff136f;
+$admin-success: #02b354;
+$admin-info: #4289ff;
+$admin-warning: #ffd019;
+
+$admin-primary-light: rgba(104, 8, 255, 0.1);
+$admin-danger-light: rgba(255, 19, 111, 0.1);
+$admin-success-light: rgba(2, 179, 84, 0.1);
+$admin-waring-light: rgba(255, 208, 25, 0.1);
+$admin-info-light: rgba(66, 137, 255, 0.1);
+
+.c-app.ph-admin-template {
+  $theme-colors: (
+    "primary": $admin-primary,
+    "danger": $admin-danger,
+    "success": $admin-success,
+  );
+  .badge {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .badge-danger {
+    background-color: $admin-danger-light;
+    color: $admin-danger;
+  }
+  .badge-primary {
+    background-color: $admin-primary-light;
+    color: $admin-primary;
+  }
+  .badge-success {
+    background-color: $admin-success-light;
+    color: $admin-success;
+  }
+  .badge-info {
+    background-color: $admin-info-light;
+    color: $admin-info;
+  }
+  .badge-waring {
+    background-color: $admin-waring-light;
+    color: $admin-warning;
+  }
+
+  .stats-card {
+    .title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      /* identical to box height, or 171% */
+
+      letter-spacing: 0.001em;
+      margin: 0;
+      margin-bottom: 8px;
+      /* Grey-4 */
+    }
+    .value {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      /* identical to box height */
+
+      letter-spacing: 0.0015em;
+      margin: 0;
+      /* Black */
+    }
+    padding: 36px 28px;
+    svg {
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      padding: 9px;
+    }
+    .danger svg {
+      background-color: $admin-danger-light;
+      color: $admin-danger;
+    }
+    .primary svg {
+      background-color: $admin-primary-light;
+      color: $admin-primary;
+    }
+    .success svg {
+      background-color: $admin-success-light;
+      color: $admin-success;
+    }
+    .info svg {
+      background-color: $admin-info-light;
+      color: $admin-info;
+    }
+    .warning svg {
+      background-color: $admin-waring-light;
+      color: $admin-warning;
+    }
+  }
+
+  .btn {
+    border-radius: 8px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    letter-spacing: 0.001em;
+  }
+  td {
+    .btn {
+      padding: 0;
+    }
+  }
+  .c-subheader {
+    border-top: 0.5px solid #f5f5f5;
+    border-bottom: 2px solid #eeeeee;
+    margin-top: 3px;
+  }
+  .c-header {
+    .c-header-toggler-icon {
+      background-image: url("../../assets/icons/menu-left.svg");
+    }
+    border: 0;
+  }
+  .c-subheader-nav {
+    background-color: #fff;
+  }
+  .c-sidebar-nav-link {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.005em;
+
+    /* Grey-5 */
+
+    color: #555555;
+  }
+
+  .c-sidebar-nav-link {
+    position: relative;
+  }
+  .c-sidebar-nav-link.c-active {
+    color: $admin-primary !important;
+    background: #ffffff;
+    a,
+    svg {
+      color: $admin-primary !important;
+    }
+  }
+  .c-sidebar-nav-link:hover,
+  .c-sidebar-nav-dropdown:hover,
+  .c-sidebar-nav-dropdown-toggle:hover {
+    background-color: #f4f4fd;
+    color: black;
+    a,
+    svg {
+      color: black;
+    }
+    .c-sidebar-nav-icon {
+      color: #555555;
+    }
+  }
+  .c-sidebar-nav-link.c-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #6808ff;
+    display: block;
+    width: 8px;
+    height: 100%;
+  }
+  .c-body {
+    background-color: $body-bg;
+    color: $body-color;
+  }
+  .breadcrumb-item {
+    a {
+      color: #6808ff;
+    }
+  }
+  input.form-control,
+  .custom-select {
+    border: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 16px;
+    height: 46px;
+  }
+  input.form-control {
+    padding: 10px 16px;
+  }
+  .card {
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+
+    .card-header {
+      border-bottom: 1px solid #d6d6d6;
+      border-radius: 8px 8px 0 0;
+      background-color: #fff;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      color: #000000;
+      .row,
+      .d-flex {
+        align-items: center;
+      }
+    }
+  }
+  table {
+    thead {
+      background: #faf7ff;
+      border-radius: 8px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400 !important;
+      /* identical to box height, or 150% */
+      border: 0;
+      letter-spacing: 0.005em;
+    }
+    th,
+    td {
+      border: 0;
+      font-size: 14px;
+      color: #555555;
+      vertical-align: middle;
+    }
+    th {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+
+      letter-spacing: 0.005em;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      /* Black */
+
+      color: #0d0f1d;
+    }
+    tr:nth-child(even) {
+      background: #faf7ff;
+    }
+    tr:hover {
+      background: #ffd8e734;
+    }
+    // Set border-radius on the top-left and bottom-left of the first table data on the table row
+    td:first-child,
+    th:first-child {
+      border-radius: 10px 0 0 10px !important;
+    }
+
+    // Set border-radius on the top-right and bottom-right of the last table data on the table row
+    td:last-child,
+    th:last-child {
+      border-radius: 0 10px 10px 0 !important;
+    }
+  }
+
+  .c-sidebar.c-sidebar-light {
+    border: none;
+    background-color: $sidebar_bg;
+    .c-sidebar-brand {
+      border-bottom: 0.5px solid #f5f5f5;
+
+      background-color: $sidebar_bg;
+      justify-content: start;
+    }
+  }
+
+  //   Custom pagination
+  .custom-pagination {
+    margin: 25px 0;
+    justify-content: start !important;
+    button {
+      border-color: #f5f5f5 !important;
+      border-radius: 8px !important;
+    }
+    .MuiPaginationItem-page.Mui-selected {
+      background: #6808ff;
+      color: white;
+    }
+    .MuiPaginationItem-page:focus {
+      outline: #6808ff;
+    }
+  }
+  .formHead-0-3-2{
+    display: none !important;
+  }
+}
